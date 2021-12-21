@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">LogiEjecutivos</string>
+    <string name="agendar_cita">Agendar Cita</string>
+    <string name="nombre_paciente">Nombre: </string>
+    <string name="origen">Origen: </string>
+    <string name="destino">Destino: </string>
+    <string name="hora_recogida">Hora Recogida: </string>
+    <string name="conductor">Conductor: </string>
+    <string name="observacion">Observaciones: </string>
+    <string name="agendar">Agendar</string>
+
+    <string-array name="paciente">
+        <item>Seleccione</item>
+        <item>Pedro Gomez</item>
+        <item>Carlos Ramirez</item>
+        <item>Marcela Cruz</item>
+        <item>Ana Gil</item>
+    </string-array>
+
+    <string-array name="origen">
+        <item>Seleccione</item>
+        <item>Estelar Milla de Oro</item>
+        <item>Alcazares</item>
+        <item>Hilton</item>
+        <item>San Fernando Plaza</item>
+    </string-array>
+
+    <string-array name="destino">
+        <item>Seleccione</item>
+        <item>HTPU</item>
+        <item>Cardiovascular</item>
+        <item>El Rosario Poblado</item>
+        <item>SAn Vicente Fundación</item>
+    </string-array>
+
+    <string-array name="conductor">
+        <item>Seleccione</item>
+        <item>Luis Felipe Tamayo</item>
+        <item>Luis Evelio Marulanda</item>
+    </string-array>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_agendar">Agendar</string>
+    <string name="title_reporte">Reporte</string>
+    <string name="title_inicio">Inicio</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
