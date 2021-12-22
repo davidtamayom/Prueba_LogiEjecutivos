@@ -10,6 +10,7 @@
     <string name="agendar">Agendar</string>
     <string name="citas_dia">CITAS DIARIAS</string>
     <string name="informe">INFORME</string>
+    <string name="filtro">FILTRO</string>
 
     <string-array name="paciente">
         <item>Seleccione</item>
