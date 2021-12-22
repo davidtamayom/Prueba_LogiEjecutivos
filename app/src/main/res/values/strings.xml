@@ -8,6 +8,8 @@
     <string name="conductor">Conductor: </string>
     <string name="observacion">Observaciones: </string>
     <string name="agendar">Agendar</string>
+    <string name="citas_dia">CITAS DIARIAS</string>
+    <string name="informe">INFORME</string>
 
     <string-array name="paciente">
         <item>Seleccione</item>
@@ -38,14 +40,5 @@
         <item>Luis Felipe Tamayo</item>
         <item>Luis Evelio Marulanda</item>
     </string-array>
-    <string name="title_activity_bottom">BottomActivity</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
-    <string name="title_agendar">Agendar</string>
-    <string name="title_reporte">Reporte</string>
-    <string name="title_inicio">Inicio</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

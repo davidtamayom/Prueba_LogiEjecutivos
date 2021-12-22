@@ -1,14 +1,15 @@
-package com.example.logiejecutivos
+package com.example.logiejecutivos.agendar
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
+import com.example.logiejecutivos.R
 import com.example.logiejecutivos.timepicker.TimePickerFragment
 
-class MainActivity : AppCompatActivity() {
+class AgendarActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_agendar)
         findViewById<EditText>(R.id.editTextTime).setOnClickListener{ showTimePickerDialog() }
 
     }
