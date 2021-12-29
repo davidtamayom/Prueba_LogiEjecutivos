@@ -1,0 +1,25 @@
+{
+   "pacientes":[
+      {
+         "Nombre":"David Tamayo",
+         "Sofib":"49484",
+         "Credencial":"12345",
+         "ID":"987654",
+         "Hotel":"Stelar Poblado"
+      },
+      {
+         "Nombre":"Felipe Muï¿½oz",
+         "Sofib":"435959",
+         "Credencial":"32145",
+         "ID":"39485",
+         "Hotel":"Milla De Oro"
+      },
+      {
+         "Nombre":"Marcela Cruz",
+         "Sofib":"39284",
+         "Credencial":"43256",
+         "ID":"98475",
+         "Hotel":"San Fernando plaza"
+      }
+   ]
+}
