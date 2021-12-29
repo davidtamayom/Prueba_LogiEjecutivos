@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".agendar.AgendarActivity">
+    tools:context=".ui.agendar.AgendarActivity">
 
 
     <TextView
@@ -36,8 +36,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        android:entries="@array/paciente"
+        android:layout_marginTop="18dp"
         android:minHeight="48dp"
         app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -59,24 +58,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="18dp"
         android:minHeight="48dp"
         app:layout_constraintStart_toEndOf="@+id/textView4"
         app:layout_constraintTop_toBottomOf="@+id/spinner_nombre_paciente"
-        tools:ignore="SpeakableTextPresentCheck"
-        android:entries="@array/origen"/>
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Spinner
         android:id="@+id/spinner_destino"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="18dp"
+        android:entries="@array/destino"
         android:minHeight="48dp"
         app:layout_constraintStart_toEndOf="@+id/textView5"
         app:layout_constraintTop_toBottomOf="@+id/spinner_origen"
-        tools:ignore="SpeakableTextPresentCheck"
-        android:entries="@array/destino"/>
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <TextView
         android:id="@+id/textView5"
@@ -128,12 +126,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="18dp"
+        android:entries="@array/conductor"
         android:minHeight="48dp"
         app:layout_constraintStart_toEndOf="@+id/textView7"
         app:layout_constraintTop_toBottomOf="@+id/editTextTime"
-        tools:ignore="SpeakableTextPresentCheck"
-        android:entries="@array/conductor"/>
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <EditText
         android:id="@+id/editTextText_observaciones"

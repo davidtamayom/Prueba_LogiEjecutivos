@@ -1,4 +1,4 @@
-package com.example.logiejecutivos.timepicker
+package com.example.logiejecutivos.ui.timepicker
 
 import android.app.Dialog
 import android.app.TimePickerDialog

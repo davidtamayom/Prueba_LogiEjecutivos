@@ -10,13 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LogiEjecutivos">
         <activity
-            android:name=".filtro.FiltroActivity"
+            android:name="com.example.logiejecutivos.ui.filtro.FiltroActivity"
             android:exported="false" />
         <activity
-            android:name=".citasdia.CitasDIaActivity"
+            android:name="com.example.logiejecutivos.ui.citasdia.CitasDIaActivity"
             android:exported="false" />
         <activity
-            android:name=".main.MainActivity"
+            android:name="com.example.logiejecutivos.ui.main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".agendar.AgendarActivity"
+            android:name="com.example.logiejecutivos.ui.agendar.AgendarActivity"
             android:exported="true"></activity>
     </application>
 

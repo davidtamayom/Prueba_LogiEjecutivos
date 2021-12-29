@@ -1,4 +1,4 @@
-package com.example.logiejecutivos.filtro
+package com.example.logiejecutivos.ui.filtro
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
